@@ -205,7 +205,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
 
         jLabel2.setText("Value:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 150, 50, 16);
+        jLabel2.setBounds(40, 150, 50, 15);
 
         tableValues.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -243,7 +243,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
 
         jLabel3.setText("Value table:");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(290, 150, 110, 16);
+        jLabel3.setBounds(290, 150, 110, 15);
 
         jRadioButton1.setText("Frequency");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -271,11 +271,11 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose and Option", "Arithmetic Mean", "Geometric Mean", "Median", "Range", "Variance", "Standard Deviation", "Standard Eroor", "Coefficient of Variation" }));
         getContentPane().add(jComboBox1);
-        jComboBox1.setBounds(530, 170, 160, 26);
+        jComboBox1.setBounds(530, 170, 160, 25);
 
         jLabel4.setText("Calculate:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(530, 150, 60, 16);
+        jLabel4.setBounds(530, 150, 60, 15);
 
         jButton13.setBackground(new java.awt.Color(0, 0, 255));
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
@@ -290,7 +290,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
 
         jLabel5.setText("Remove value by ID:");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(530, 320, 160, 16);
+        jLabel5.setBounds(530, 320, 160, 15);
 
         jButton14.setBackground(new java.awt.Color(255, 0, 0));
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
@@ -322,7 +322,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton15);
-        jButton15.setBounds(290, 380, 100, 28);
+        jButton15.setBounds(290, 380, 100, 31);
 
         jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
@@ -333,7 +333,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(400, 380, 100, 28);
+        jButton2.setBounds(400, 380, 100, 31);
 
         buttonGroupDistribuição.add(jRadioButtonAmostral);
         jRadioButtonAmostral.setText("Sample");
@@ -343,11 +343,11 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
         buttonGroupDistribuição.add(jRadioButtonPopulacional);
         jRadioButtonPopulacional.setText("Population");
         getContentPane().add(jRadioButtonPopulacional);
-        jRadioButtonPopulacional.setBounds(530, 280, 160, 18);
+        jRadioButtonPopulacional.setBounds(530, 280, 160, 28);
 
         jLabel6.setText("Kind of Data:");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(530, 240, 160, 16);
+        jLabel6.setBounds(530, 240, 160, 15);
 
         englishButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/enIcon.png"))); // NOI18N
         englishButton.setEnabled(false);
@@ -376,7 +376,7 @@ public class PrincipalEnlgish extends javax.swing.JFrame {
         getContentPane().add(txtValue);
         txtValue.setBounds(40, 170, 200, 30);
 
-        setSize(new java.awt.Dimension(732, 460));
+        setSize(new java.awt.Dimension(730, 460));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
